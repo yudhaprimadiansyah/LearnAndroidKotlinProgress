@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_nama"
+        style="@style/TextMargin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nama"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/et_nick"
+        style="@style/TextMargin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:editable="true"
+        android:ems="10"
+        android:hint="@string/nick"
+        android:inputType="textPersonName"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/tv_nickname"
+        style="@style/TextMargin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:editable="true"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/bt_submit"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/submit" />
+
+    <Button
+        android:id="@+id/bt_edit"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/edit"
+        android:visibility="gone" />
+
+    <ScrollView
+        android:id="@+id/scroll_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/isi_teks"
+            style="@style/TextMargin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/deskripsi"
+            android:textSize="18sp" />
+    </ScrollView>
+
+</LinearLayout>

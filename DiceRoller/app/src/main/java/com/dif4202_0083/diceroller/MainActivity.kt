@@ -15,7 +15,6 @@ class MainActivity : AppCompatActivity() {
 
         val rollButton: Button = findViewById(R.id.btn_roll)
         gambarDadu = findViewById(R.id.gambar_dadu)
-        gambarDadu.setImageResource(R.drawable.dice_6)
         //val textNilai: TextView = findViewById(R.id.text_nilai)
         //textNilai.text = (0).toString()
         rollButton.setOnClickListener {

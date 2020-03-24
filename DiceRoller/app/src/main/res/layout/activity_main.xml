@@ -10,11 +10,12 @@
         android:id="@+id/gambar_dadu"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:src="@drawable/empty_dice"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/empty_dice" />
+        app:srcCompat="@drawable/dice_1" />
 
     <Button
         android:id="@+id/btn_roll"
