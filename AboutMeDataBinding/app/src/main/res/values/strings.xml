@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">About Me DataBinding</string>
+    <string name="s_judul">Tentang Dirimu</string>
+    <string name="s_masukan_nick">Masukan Nick Name Anda</string>
+    <string name="s_Deskripsi">Deskripsi</string>
+    <string name="s_edit">Edit</string>
+</resources>
